@@ -18,3 +18,25 @@
     80%{background-color: rgb(255, 0, 204);}
     100%{background-color:  rgb(0, 47, 255);}
 }
+
+@media screen and (max-width: 600px) {
+    .box {
+        height: 200px;
+        width: 200px;
+        animation: colorchange;
+        animation-direction: normal;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+    
+
+    @keyframes colorchange {
+        0%{background-color: rgb(0, 47, 255);}
+        20%{background-color: aqua;}
+        40%{background-color: rgb(0, 255, 4);}
+        60%{background-color: rgb(255, 0, 0);}
+        80%{background-color: rgb(255, 0, 204);}
+        100%{background-color:  rgb(0, 47, 255);}
+    }
+    
+}
